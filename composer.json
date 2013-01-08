@@ -1,5 +1,5 @@
 {
-    "name": "gerardtoko/asserlib-bundle",
+    "name": "gerardtoko/assetlib-bundle",
     "type": "symfony-bundle",
     "description": "Grouping the asset libraries in a symfony bundle",
     "keywords": ["assets", "asset","js", "library"],

@@ -6,8 +6,8 @@ Grouping the asset libraries in a symfony bundle
 ## Using with Twig
 
 ### jQuery and JQuery UI
-jQuery WebSite: http://jquery.com
-jQuery UI WebSite: http://jqueryui.com
+* jQuery WebSite: http://jquery.com
+* jQuery UI WebSite: http://jqueryui.com
 
 ```
     {% javascripts
