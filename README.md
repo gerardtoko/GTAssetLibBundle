@@ -185,3 +185,9 @@ ImportPlayer: https://github.com/gerardtoko/importplayer
 ###JQuery Cookie
 ###Dynatree
 ###Import Player
+###JQuery-tokeninput
+###Loader
+###Swfobject
+###Uploadify
+###Tinymce
+###Tapmodo-Jcrop
