@@ -1,6 +1,2 @@
-/phpunit.xml
-
-/vendor
 /vendor/symfony
-composer.phar
-composer.lock
+/composer.phar
