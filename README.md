@@ -175,19 +175,19 @@ ImportPlayer: https://github.com/gerardtoko/importplayer
 ```
 
 ## All Libraries
-###jQuery 
-###jQuery UI
-###Bootstrap Twitter
-###Datepicker for Bootstrap Twitter
-###Datatables
-###Chosen
-###Ckeditor
-###JQuery Cookie
-###Dynatree
-###Import Player
-###JQuery-tokeninput
-###Loader
-###Swfobject
-###Uploadify
-###Tinymce
-###Tapmodo-Jcrop
+* jQuery 
+* jQuery UI
+* Bootstrap Twitter
+* Datepicker for Bootstrap Twitter
+* Datatables
+* Chosen
+* Ckeditor
+* JQuery Cookie
+* Dynatree
+* Import Player
+* JQuery-tokeninput
+* Loader
+* Swfobject
+* Uploadify
+* Tinymce
+* Tapmodo-Jcrop
