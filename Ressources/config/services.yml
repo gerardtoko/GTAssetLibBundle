@@ -1,0 +1,7 @@
+parameters:
+#    gt_asset_lib.example.class: GT\AssetLibBundle\Example
+
+services:
+#    gt_asset_lib.example:
+#        class: %gt_asset_lib.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
