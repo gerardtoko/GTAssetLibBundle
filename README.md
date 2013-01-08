@@ -5,6 +5,19 @@ Grouping the asset libraries in a symfony bundle
 
 ## Using with Twig
 
+### Backbone
+* Backbone: http://backbonejs.org
+
+```
+    {% javascripts
+	'@GTAssetLibBundle/Resources/public/backbone/backbone-min.js'	
+	output='assets/compiled/script.js'
+	filter='yui_js'
+    %}
+    <script src="{{ asset_url }}"></script>
+    {% endjavascripts %}
+```
+
 ### jQuery and JQuery UI
 * jQuery WebSite: http://jquery.com
 * jQuery UI WebSite: http://jqueryui.com
@@ -175,6 +188,7 @@ ImportPlayer: https://github.com/gerardtoko/importplayer
 ```
 
 ## All Libraries
+* Backbone
 * jQuery 
 * jQuery UI
 * Bootstrap Twitter
