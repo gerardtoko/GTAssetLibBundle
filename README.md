@@ -11,8 +11,8 @@ jQuery UI WebSite: http://jqueryui.com
 
 ```
     {% javascripts
-	'vendor/jquery/jquery.min.js'
-	'vendor/jquery/jquery.ui.min.js'
+	'@GtAssetLibBundle/Resources/public/jquery/jquery.min.js'
+	'@GtAssetLibBundle/Resources/public/jquery/jquery.ui.min.js'
 	output='assets/compiled/script.js'
 	filter='yui_js'
     %}
@@ -26,7 +26,7 @@ Bootstrap Twitter WebSite: http://twitter.github.com/bootstrap
 
 ```
     {% stylesheets
-	'vendor/bootstrap/css/bootstrap.min.css' 
+	'@GtAssetLibBundle/Resources/public/bootstrap/css/bootstrap.min.css' 
 	output='assets/compiled/style.css'
 	filter='yui_css'
     %}
@@ -34,7 +34,7 @@ Bootstrap Twitter WebSite: http://twitter.github.com/bootstrap
     {% endstylesheets %}
 
     {% javascripts
-	'vendor/bootstrap/js/bootstrap.min.js'
+	'@GtAssetLibBundle/Resources/public/bootstrap/js/bootstrap.min.js'
 	output='assets/compiled/script.js'
 	filter='yui_js'
     %}
@@ -47,11 +47,11 @@ Datatables WebSite: http://www.datatables.net
 
 ```
     {% stylesheets
-	'vendor/datatables/media/css/demo_page.css'
-	'vendor/datatables/media/css/demo_table.css'
-	'vendor/datatables/media/css/demo_table_jui.css'
-	'vendor/datatables/media/css/jquery.dataTables.css'
-	'vendor/datatables/media/css/jquery.dataTables_themeroller.css'
+	'@GtAssetLibBundle/Resources/public/datatables/media/css/demo_page.css'
+	'@GtAssetLibBundle/Resources/public/datatables/media/css/demo_table.css'
+	'@GtAssetLibBundle/Resources/public/datatables/media/css/demo_table_jui.css'
+	'@GtAssetLibBundle/Resources/public/datatables/media/css/jquery.dataTables.css'
+	'@GtAssetLibBundle/Resources/public/datatables/media/css/jquery.dataTables_themeroller.css'
      output='assets/compiled/style.css'
      filter='yui_css'
     %}
@@ -59,7 +59,7 @@ Datatables WebSite: http://www.datatables.net
     {% endstylesheets %}
 
     {% javascripts
-	'vendor/datatables/media/js/jquery.dataTables.min.js'
+	'@GtAssetLibBundle/Resources/public/datatables/media/js/jquery.dataTables.min.js'
      output='assets/compiled/script.js'
      filter='yui_js'
     %}
@@ -72,7 +72,7 @@ Chosen WebSite: http://harvesthq.github.com/chosen
 
 ```
     {% stylesheets
-	'vendor/chosen/chosen/chosen.css'
+	'@GtAssetLibBundle/Resources/public/chosen/chosen/chosen.css'
      output='assets/compiled/style.css'
      filter='yui_css'
     %}
@@ -80,7 +80,7 @@ Chosen WebSite: http://harvesthq.github.com/chosen
     {% endstylesheets %}
 
     {% javascripts
-	'vendor/chosen/chosen/chosen.jquery.min.js'
+	'@GtAssetLibBundle/Resources/public/chosen/chosen/chosen.jquery.min.js'
      output='assets/compiled/script.js'
      filter='yui_js'
     %}
@@ -92,7 +92,7 @@ Chosen WebSite: http://harvesthq.github.com/chosen
 Datepicker for Bootstrap Twitter WebSite: http://www.eyecon.ro/bootstrap-datepicker
 ```
     {% stylesheets
-	'vendor/datepicker/css/datepicker.css'
+	'@GtAssetLibBundle/Resources/public/datepicker/css/datepicker.css'
      output='assets/compiled/style.css'
      filter='yui_css'
     %}
@@ -100,7 +100,7 @@ Datepicker for Bootstrap Twitter WebSite: http://www.eyecon.ro/bootstrap-datepic
     {% endstylesheets %}
 
     {% javascripts
-	'vendor/datepicker/js/bootstrap-datepicker.js'
+	'@GtAssetLibBundle/Resources/public/datepicker/js/bootstrap-datepicker.js'
      output='assets/compiled/script.js'
      filter='yui_js'
     %}
@@ -113,8 +113,8 @@ Bootstrap Twitter Datepicker WebSite: http://ckeditor.com
 
 ```
     {% javascripts
-	'vendor/ckeditor/ckeditor.js'
-	'vendor/ckeditor/adapters/jquery.js'
+	'@GtAssetLibBundle/Resources/public/ckeditor/ckeditor.js'
+	'@GtAssetLibBundle/Resources/public/ckeditor/adapters/jquery.js'
      output='assets/compiled/script.js'
      filter='yui_js'
     %}
@@ -126,7 +126,7 @@ Bootstrap Twitter Datepicker WebSite: http://ckeditor.com
 Dynatree Website: https://github.com/carhartl/jquery-cookie
 ```
     {% javascripts
-	'vendor/jquery-cookie/jquery.cookie.js'
+	'@GtAssetLibBundle/Resources/public/jquery-cookie/jquery.cookie.js'
      output='assets/compiled/script.js'
      filter='yui_js'
     %}
@@ -138,7 +138,7 @@ Dynatree Website: https://github.com/carhartl/jquery-cookie
 Dynatree WebSite: http://code.google.com/p/dynatree
 ```
     {% stylesheets
-	'vendor/dynatree/src/skin/ui.dynatree.css'
+	'@GtAssetLibBundle/Resources/public/dynatree/src/skin/ui.dynatree.css'
      output='assets/compiled/style.css'
      filter='yui_css'
     %}
@@ -146,7 +146,7 @@ Dynatree WebSite: http://code.google.com/p/dynatree
     {% endstylesheets %}
 
     {% javascripts
-	'vendor/dynatree/src/jquery.dynatree.js'
+	'@GtAssetLibBundle/Resources/public/dynatree/src/jquery.dynatree.js'
      output='assets/compiled/script.js'
      filter='yui_js'
     %}
@@ -158,7 +158,7 @@ Dynatree WebSite: http://code.google.com/p/dynatree
 ImportPlayer: https://github.com/gerardtoko/importplayer
 ```
     {% stylesheets
-	'vendor/dynatree/src/skin/ui.dynatree.css'
+	'@GtAssetLibBundle/Resources/public/dynatree/src/skin/ui.dynatree.css'
      output='assets/compiled/style.css'
      filter='yui_css'
     %}
@@ -166,7 +166,7 @@ ImportPlayer: https://github.com/gerardtoko/importplayer
     {% endstylesheets %}
 
     {% javascripts
-	'vendor/dynatree/src/jquery.dynatree.js'
+	'@GtAssetLibBundle/Resources/public/dynatree/src/jquery.dynatree.js'
      output='assets/compiled/script.js'
      filter='yui_js'
     %}
