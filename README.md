@@ -1,4 +1,3 @@
-
 GTAssetLibBundle
 ================
 
@@ -9,7 +8,7 @@ Grouping the asset libraries in a symfony bundle
 ### Backbone
 * Backbone: http://backbonejs.org
 
-```
+``` php
     {% javascripts
 	'@GTAssetLibBundle/Resources/public/backbone/backbone-min.js'	
 	output='assets/compiled/script.js'
@@ -23,7 +22,7 @@ Grouping the asset libraries in a symfony bundle
 * jQuery WebSite: http://jquery.com
 * jQuery UI WebSite: http://jqueryui.com
 
-```
+```php
     {% javascripts
 	'@GTAssetLibBundle/Resources/public/jquery/jquery.min.js'
 	'@GTAssetLibBundle/Resources/public/jquery/jquery.ui.min.js'
@@ -38,7 +37,7 @@ Grouping the asset libraries in a symfony bundle
 ### Bootstrap Twitter
 Bootstrap Twitter WebSite: http://twitter.github.com/bootstrap
 
-```
+```php
     {% stylesheets
 	'@GTAssetLibBundle/Resources/public/bootstrap/css/bootstrap.min.css' 
 	output='assets/compiled/style.css'
@@ -59,7 +58,7 @@ Bootstrap Twitter WebSite: http://twitter.github.com/bootstrap
 ### Datatables
 Datatables WebSite: http://www.datatables.net
 
-```
+```php
     {% stylesheets
 	'@GTAssetLibBundle/Resources/public/datatables/media/css/demo_page.css'
 	'@GTAssetLibBundle/Resources/public/datatables/media/css/demo_table.css'
@@ -84,7 +83,7 @@ Datatables WebSite: http://www.datatables.net
 ### Chosen
 Chosen WebSite: http://harvesthq.github.com/chosen
 
-```
+```php
     {% stylesheets
 	'@GTAssetLibBundle/Resources/public/chosen/chosen/chosen.css'
      output='assets/compiled/style.css'
@@ -104,7 +103,7 @@ Chosen WebSite: http://harvesthq.github.com/chosen
 
 ### Datepicker for Bootstrap Twitter
 Datepicker for Bootstrap Twitter WebSite: http://www.eyecon.ro/bootstrap-datepicker
-```
+```php
     {% stylesheets
 	'@GTAssetLibBundle/Resources/public/datepicker/css/datepicker.css'
      output='assets/compiled/style.css'
@@ -125,7 +124,7 @@ Datepicker for Bootstrap Twitter WebSite: http://www.eyecon.ro/bootstrap-datepic
 ### Ckeditor
 Bootstrap Twitter Datepicker WebSite: http://ckeditor.com
 
-```
+```php
     {% javascripts
 	'@GTAssetLibBundle/Resources/public/ckeditor/ckeditor.js'
 	'@GTAssetLibBundle/Resources/public/ckeditor/adapters/jquery.js'
@@ -138,7 +137,7 @@ Bootstrap Twitter Datepicker WebSite: http://ckeditor.com
 
 ### JQuery Cookie
 Dynatree Website: https://github.com/carhartl/jquery-cookie
-```
+```php
     {% javascripts
 	'@GTAssetLibBundle/Resources/public/jquery-cookie/jquery.cookie.js'
      output='assets/compiled/script.js'
@@ -150,7 +149,7 @@ Dynatree Website: https://github.com/carhartl/jquery-cookie
 
 ### Dynatree
 Dynatree WebSite: http://code.google.com/p/dynatree
-```
+```php
     {% stylesheets
 	'@GTAssetLibBundle/Resources/public/dynatree/src/skin/ui.dynatree.css'
      output='assets/compiled/style.css'
@@ -170,7 +169,7 @@ Dynatree WebSite: http://code.google.com/p/dynatree
 
 ### Import Player
 ImportPlayer: https://github.com/gerardtoko/importplayer
-```
+```php
     {% stylesheets
 	'@GTAssetLibBundle/Resources/public/dynatree/src/skin/ui.dynatree.css'
      output='assets/compiled/style.css'
