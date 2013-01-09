@@ -1,7 +1,7 @@
 GTAssetLibBundle
 ================
 
-Grouping the asset libraries in a symfony bundle
+Grouping the asset libraries in a symfony2 bundle
 
 ##  Installation
 
