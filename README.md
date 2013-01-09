@@ -3,12 +3,52 @@ GTAssetLibBundle
 
 Grouping the asset libraries in a symfony bundle
 
+##  Installation
+
+### Download GTAssetLibBundle using composer
+
+Add GTAssetLibBundle in your composer.json:
+
+```js
+{
+    "require": {
+        "gerardtoko/assetlib-bundle": "dev-master"
+    }
+}
+```
+
+Now tell composer to download the bundle by running the command:
+
+```bash
+$ php composer.phar update gerardtoko/assetlib-bundle
+```
+
+Composer will install the bundle to your project's `vendor/gerardtoko/assetlib-bundle` directory.
+
+
+### Register the bundle
+
+You must register the bundle in your kernel:
+```php
+    <?php
+    
+    // app/AppKernel.php    
+    public function registerBundles()
+    {
+        $bundles = array(    
+            // ...    
+             new GT\AssetLibBundle\GTAssetLibBundle(),
+        );    
+        // ...
+    }
+```
+
 ## Using with Twig
 
 ### Backbone
 * Backbone: http://backbonejs.org
 
-``` php
+```jinja
     {% javascripts
 	'@GTAssetLibBundle/Resources/public/backbone/backbone-min.js'	
 	output='assets/compiled/script.js'
@@ -22,7 +62,7 @@ Grouping the asset libraries in a symfony bundle
 * jQuery WebSite: http://jquery.com
 * jQuery UI WebSite: http://jqueryui.com
 
-```php
+```jinja
     {% javascripts
 	'@GTAssetLibBundle/Resources/public/jquery/jquery.min.js'
 	'@GTAssetLibBundle/Resources/public/jquery/jquery.ui.min.js'
@@ -37,7 +77,7 @@ Grouping the asset libraries in a symfony bundle
 ### Bootstrap Twitter
 Bootstrap Twitter WebSite: http://twitter.github.com/bootstrap
 
-```php
+```jinja
     {% stylesheets
 	'@GTAssetLibBundle/Resources/public/bootstrap/css/bootstrap.min.css' 
 	output='assets/compiled/style.css'
@@ -58,7 +98,7 @@ Bootstrap Twitter WebSite: http://twitter.github.com/bootstrap
 ### Datatables
 Datatables WebSite: http://www.datatables.net
 
-```php
+```jinja
     {% stylesheets
 	'@GTAssetLibBundle/Resources/public/datatables/media/css/demo_page.css'
 	'@GTAssetLibBundle/Resources/public/datatables/media/css/demo_table.css'
@@ -83,7 +123,7 @@ Datatables WebSite: http://www.datatables.net
 ### Chosen
 Chosen WebSite: http://harvesthq.github.com/chosen
 
-```php
+```jinja
     {% stylesheets
 	'@GTAssetLibBundle/Resources/public/chosen/chosen/chosen.css'
      output='assets/compiled/style.css'
@@ -103,7 +143,7 @@ Chosen WebSite: http://harvesthq.github.com/chosen
 
 ### Datepicker for Bootstrap Twitter
 Datepicker for Bootstrap Twitter WebSite: http://www.eyecon.ro/bootstrap-datepicker
-```php
+```jinja
     {% stylesheets
 	'@GTAssetLibBundle/Resources/public/datepicker/css/datepicker.css'
      output='assets/compiled/style.css'
@@ -124,7 +164,7 @@ Datepicker for Bootstrap Twitter WebSite: http://www.eyecon.ro/bootstrap-datepic
 ### Ckeditor
 Bootstrap Twitter Datepicker WebSite: http://ckeditor.com
 
-```php
+```jinja
     {% javascripts
 	'@GTAssetLibBundle/Resources/public/ckeditor/ckeditor.js'
 	'@GTAssetLibBundle/Resources/public/ckeditor/adapters/jquery.js'
@@ -137,7 +177,7 @@ Bootstrap Twitter Datepicker WebSite: http://ckeditor.com
 
 ### JQuery Cookie
 Dynatree Website: https://github.com/carhartl/jquery-cookie
-```php
+```jinja
     {% javascripts
 	'@GTAssetLibBundle/Resources/public/jquery-cookie/jquery.cookie.js'
      output='assets/compiled/script.js'
@@ -149,7 +189,7 @@ Dynatree Website: https://github.com/carhartl/jquery-cookie
 
 ### Dynatree
 Dynatree WebSite: http://code.google.com/p/dynatree
-```php
+```jinja
     {% stylesheets
 	'@GTAssetLibBundle/Resources/public/dynatree/src/skin/ui.dynatree.css'
      output='assets/compiled/style.css'
@@ -169,7 +209,7 @@ Dynatree WebSite: http://code.google.com/p/dynatree
 
 ### Import Player
 ImportPlayer: https://github.com/gerardtoko/importplayer
-```php
+```jinja
     {% stylesheets
 	'@GTAssetLibBundle/Resources/public/dynatree/src/skin/ui.dynatree.css'
      output='assets/compiled/style.css'
