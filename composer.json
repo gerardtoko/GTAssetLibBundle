@@ -1,7 +1,7 @@
 {
     "name": "gerardtoko/assetlib-bundle",
     "type": "symfony-bundle",
-    "description": "Grouping the asset libraries in a symfony bundle",
+    "description": "Grouping the asset libraries in a symfony2 bundle",
     "keywords": ["assets", "asset","js", "library"],
     "homepage": "http://www.gerardtoko.com",
     "license": "MIT",
